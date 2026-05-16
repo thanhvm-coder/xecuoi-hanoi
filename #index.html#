@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe Hoa - Xe Cưới Hà Nội - 0979 004 936</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: calc(100% - 40px);
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #d4222f; /* Màu đỏ đô, sang trọng */
+        }
+
+        .header-hotline {
+            background-color: #d4222f;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* Hero Section (image_2.png background) */
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('image_2.png');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding-top: 80px; /* Header space */
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Fleet Section (Vehicles) */
+        .fleet {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .vehicle-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .vehicle-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .vehicle-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .vehicle-info h3 {
+            font-size: 1.1rem;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .vehicle-info p {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .book-btn {
+            background-color: #d4222f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .book-btn:hover {
+            background-color: #b11f26;
+        }
+
+        /* Zalo Section (Footer Zalo button) */
+        .zalo-section {
+            padding: 30px 20px;
+            background-color: #e6f7ff;
+            text-align: center;
+        }
+
+        .zalo-section p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .zalo-btn {
+            background-color: #0076a3; /* Màu xanh Zalo */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">Xe Hoa - Xe Cưới Hà Nội</div>
+        <a href="tel:0979004936" class="header-hotline">Hotline: 097 900 49 36</a>
+    </header>
+
+    <div class="hero">
+        <h1>Dịch Vụ Cho Thuê Xe Cưới Số 1 Hà Nội</h1>
+        <p>Uy tín, Chuyên nghiệp, Tận tâm. Đa dạng dòng xe.</p>
+        <a href="tel:0979004936" class="book-btn">Đặt Xe Ngay</a>
+    </div>
+
+    <div class="fleet">
+        <div class="vehicle-card">
+            <img src="image_3.png" alt="Porsche Panamera">
+            <div class="vehicle-info">
+                <h3>Porsche Panamera Xe Cưới</h3>
+                <p>Sang trọng, đẳng cấp thể thao cho ngày cưới rực rỡ.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_4.png" alt="Lexus Convertible">
+            <div class="vehicle-info">
+                <h3>Lexus Mui Trần</h3>
+                <p>Mui trần sang trọng, hiện đại, ghi lại khoảnh khắc đáng nhớ.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_5.png" alt="VinFast Lux SA```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe Hoa - Xe Cưới Hà Nội - 0979 004 936</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: calc(100% - 40px);
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #d4222f; /* Màu đỏ đô, sang trọng */
+        }
+
+        .header-hotline {
+            background-color: #d4222f;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* Hero Section (image_2.png background) */
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('image_2.png');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding-top: 80px; /* Header space */
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Fleet Section (Vehicles) */
+        .fleet {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .vehicle-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .vehicle-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .vehicle-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .vehicle-info h3 {
+            font-size: 1.1rem;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .vehicle-info p {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .book-btn {
+            background-color: #d4222f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .book-btn:hover {
+            background-color: #b11f26;
+        }
+
+        /* Zalo Section (Footer Zalo button) */
+        .zalo-section {
+            padding: 30px 20px;
+            background-color: #e6f7ff;
+            text-align: center;
+        }
+
+        .zalo-section p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .zalo-btn {
+            background-color: #0076a3; /* Màu xanh Zalo */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">Xe Hoa - Xe Cưới Hà Nội</div>
+        <a href="tel:0979004936" class="header-hotline">Hotline: 097 900 49 36</a>
+    </header>
+
+    <div class="hero">
+        <h1>Dịch Vụ Cho Thuê Xe Cưới Số 1 Hà Nội</h1>
+        <p>Uy tín, Chuyên nghiệp, Tận tâm. Đa dạng dòng xe.</p>
+        <a href="tel:0979004936" class="book-btn">Đặt Xe Ngay</a>
+    </div>
+
+    <div class="fleet">
+        <div class="vehicle-card">
+            <img src="image_3.png" alt="Porsche Panamera">
+            <div class="vehicle-info">
+                <h3>Porsche Panamera Xe Cưới</h3>
+                <p>Sang trọng, đẳng cấp thể thao cho ngày cưới rực rỡ.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_4.png" alt="Lexus Convertible">
+            <div class="vehicle-info">
+                <h3>Lexus Mui Trần</h3>
+                <p>Mui trần sang trọng, hiện đại, ghi lại khoảnh khắc đáng nhớ.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_5.png" alt="VinFast Lux SA">
+            <div class="vehicle-info">
+                <h3>VinFast Lux SA Xe Cưới</h3>
+                <p>Xe Việt Nam, đẳng cấp Việt. Mạnh mẽ và sang trọng.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_6.png" alt="Mercedes E-Class">
+            <div class="vehicle-info">
+                <h3>Mercedes E-Class</h3>
+                <p>Lịch lãm, thanh lịch, dòng xe phổ biến cho xe hoa.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="image_7.png" alt="Toyota Camry">
+            <div class="vehicle-info">
+                <h3>Toyota Camry Xe Cưới</h3>
+                <p>Phổ biến, uy tín, lựa chọn kinh tế nhưng vẫn sang trọng.</p>
+                <a href="tel:0979004936" class="book-btn">Xem Giá</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="zalo-section">
+        <p>Chúng tôi luôn sẵn sàng hỗ trợ. Quét mã hoặc bấm nút để đặt xe nhanh.</p>
+        <a href="[http://zaloapp.com/qr/p/bijd1txzgtgh](http://zaloapp.com/qr/p/bijd1txzgtgh)" class="zalo-btn">Liên Hệ Zalo Ngay</a>
+    </div>
+
+    <footer>
+        <p>Copyright © 2026 Xe Hoa - Xe Cưới Hà Nội.</p>
+        <p>Địa chỉ: TP. Hà Nội | Hotline: 097 900 49 36</p>
+    </footer>
+
+</body>
+</html>
